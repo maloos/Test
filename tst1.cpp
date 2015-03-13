@@ -1,27 +1,42 @@
 #include <stdio.h>
 #include <math.h>
+/*
+------------------------------------------------->>>>>>>>>>>----- All These Functions MUST used with %f
+sin( )  --- sin(23.3)
+cos( )  --- cos(23.3)
+tan( )  --- tan(30)
+
+log( ) ----- logarithm dar mabnaye Neper (2.71) ---log(100)
+log10( ) ---log10(100)
+
+pow( )  ---pow(2, 8), pow(num1 , num2) = num1 ^(num2)
+sqrt( ) ---sqrt(100)
+
+*/
+#include <conio.h>
 
 int main(){
     
+    //int (%d)    
+    // double (%lf) = float (%f)
+    
+    float num1;
+    const float PI = 3.141556;
+    scanf("%f", &num1);
+    printf("Masahat: %f\n", num1*num1*PI); 
+    printf("Mohit: %f\n", 2*PI* num1);
+    
+    
+    //char (%c)
     /*
-    int input;
-    scanf("%d", &input);
-    printf("You Entered This number: %d" , input);
-    
-    int num1;
-    int num2;
-    
-    scanf("%d%d" ,&num1 , &num2);
-    int num3=num1*num2;
-    printf("first num is %d \nsecond num is %d \nmult. is %d",num1  , num2 , num3); //first num is 155 \nsecond num is 15949 \nmult. is xxxxxxxxx
+    char c;
+    scanf("%c", &c);
+    printf("%c\n", c);
     */
     
-    int num1;
-    scanf("%d",&num1);
-    printf("the sin is : %f\n", sin(3.141592 * num1 / 180));
-    printf("the cos is : %f\n", cos(3.141592 * num1 / 180));    
     
     int a;
-    scanf("%d",&a);
+    scanf("%d" , &a);
+    getchar();
     return 0;
 }
