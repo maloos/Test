@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 /*
---------------------------------------------->>>>>>>>>>>----- All These Functions MUST used with %f
+------------------------------------------->>>>>>>>>>>----- All These Functions MUST used with %f
 sin( )  --- sin(23.3)
 cos( )  --- cos(23.3)
 tan( )  --- tan(30)
